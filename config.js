@@ -6,7 +6,7 @@ window.BRONTO_CONFIG = {
   LIFF_ID: '2010420149-fLmeDPpq',
 
   // ใส่ URL backend ที่ deploy แล้ว ต้องลงท้ายด้วย /api/v1
-  API_BASE_URL: 'https://lineoa1-0s4i.onrender.com/api/v1',
+  API_BASE_URL: 'https://webservice1-vnnd.onrender.com/api/v1',
 
   // เบอร์ PromptPay หรือเลขพร้อมเพย์ของร้าน
   PROMPTPAY_ID: '0632162626',
