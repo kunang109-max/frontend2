@@ -3,7 +3,7 @@
 
 window.BRONTO_CONFIG = {
   // ใส่ LIFF ID จาก LINE Developers > LINE Login Channel > LIFF
-  LIFF_ID: 'YOUR_LIFF_ID',
+  LIFF_ID: '2010420149-fLmeDPpq',
 
   // ใส่ URL backend ที่ deploy แล้ว ต้องลงท้ายด้วย /api/v1
   API_BASE_URL: 'https://lineoa1-0s4i.onrender.com/api/v1',
