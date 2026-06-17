@@ -1,0 +1,24 @@
+วิธีแก้ไฟล์ config สำหรับ Bronto LINE LIFF
+
+กรณีเปิด config.js ไม่ได้:
+1. แตก ZIP ก่อน อย่าเปิดจากใน ZIP โดยตรง
+2. เข้าโฟลเดอร์ frontend
+3. เปิดไฟล์ config-เปิดแก้ใน-notepad.txt
+4. แก้ค่า LIFF_ID และ API_BASE_URL
+5. กด File > Save As
+6. ตั้งชื่อไฟล์เป็น config.js
+7. Save as type เลือก All Files
+8. Encoding เลือก UTF-8
+9. วางทับไฟล์ config.js เดิมในโฟลเดอร์ frontend
+
+ค่าที่ต้องแก้:
+LIFF_ID = ได้จาก LINE Developers > LINE Login Channel > LIFF
+API_BASE_URL = URL backend เช่น https://bronto-api.onrender.com/api/v1
+
+ตัวอย่าง:
+window.BRONTO_CONFIG = {
+  LIFF_ID: '2001234567-AbCdEfGh',
+  API_BASE_URL: 'https://bronto-api.onrender.com/api/v1',
+  PROMPTPAY_ID: '0632162626',
+  BRANCH_NAME: 'Bronto Station'
+};
